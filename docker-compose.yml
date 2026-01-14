@@ -6,7 +6,7 @@ services:
     # Порт для доступа к базе данных
     # 5432 — стандартный порт PostgreSQL
     ports:
-      - "5433:5432"
+      - "5432:5432"
 
     environment:
       POSTGRES_DB: notification         # Имя базы данных, которая будет создана
